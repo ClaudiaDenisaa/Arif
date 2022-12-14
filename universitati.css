@@ -1,0 +1,71 @@
+*{
+    margin:0;
+}
+.pagina
+{
+    background:hsl(41, 100%, 60%);
+    height:155em;
+}
+.bara
+{
+    width:1350px;
+    height:75px;
+    background:hsl(41, 100%, 50%);;
+    margin:0;
+    position:sticky;
+    top:0px;
+    bottom: 10px;
+    border-bottom-width: 15px;
+}
+
+.logo
+{
+color:white;
+font-size:60px;
+font-family: Chiller;
+font-style: oblique;
+margin-left: 20px;
+margin-top:0px ;
+}
+.meniu
+{
+    font-size:40px;
+    font-family: Chiller;
+    margin-right:20px;
+    margin-left: 1240px;
+    margin-top: -55px;
+    appearance:inherit;
+}
+.continutprincipal
+{
+    background:#ffb428;
+    position: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+    width:1080px;
+    height:130em;
+    border-radius: 3%;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid coral;
+    border-color:white;
+}
+a:visited{ color:gray}
+a:link{ color:white}
+a:hover{ color:black}
+a:active{ color:black}
+
+.titlu
+{
+    font-size: 70px;
+    font-family: Chiller;
+    color:white;
+}
+.orasele
+{
+    color:white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

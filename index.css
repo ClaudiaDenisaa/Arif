@@ -1,0 +1,78 @@
+*{
+    margin:0;
+}
+.pagina
+{
+    background: whitesmoke;
+    height:52em;
+}
+/*rgb(255, 145, 0)
+ hsl(41, 100%, 60%) */
+.bara
+{
+    width:1350px;
+    height:75px;
+    background:hsl(41, 100%, 50%);;
+    margin:0;
+    position:sticky;
+    top:0px;
+    bottom: 10px;
+    border-bottom-width: 15px;
+    border-bottom: 2px solid white;
+    justify-content: space-between;align-items: center;
+    flex-wrap: wrap;
+    /*
+    */
+}
+.logo
+{
+color:white;
+font-size:60px;
+font-family: Chiller;
+font-style: oblique;
+margin-left: 20px;
+margin-top:0px ;
+}
+.meniu
+{  
+    font-size:40px;
+    font-family: Chiller;
+    appearance:inherit;/*incadrat cu negru casuta*/
+    margin-right:20px;
+    margin-left: 1240px;
+    margin-top: -55px;
+}
+.continutprincipal
+{
+    background:#ffb428;
+    position: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+    width:1080px;
+    height:500px;
+    border-radius: 3%;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid coral;
+    border-color:white;
+
+}
+
+.incipit
+{
+    color:white;
+    font-size:30px;
+    font-family: Arial;
+    justify-content: center;
+}
+.lista
+{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }  
+a:visited{ color:white}
+a:link{ color:gray}
+a:hover{ color:black}
+a:active{ color:black}
