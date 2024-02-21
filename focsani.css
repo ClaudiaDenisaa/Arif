@@ -1,0 +1,115 @@
+
+*{
+    margin:0;
+}
+.pagina
+{
+    background: whitesmoke;
+    height:auto;
+}
+.bara
+{
+    width:auto;
+    height:75px;
+    background:hsl(41, 100%, 50%);;
+    margin:0;
+    position:sticky;
+    top:0px;
+    bottom: 10px;
+    border-bottom-width: 15px;
+    border-bottom: 2px solid white;
+}
+.logo
+{
+color:white;
+font-size:60px;
+font-family: Chiller;
+font-style: oblique;
+margin-left: 20px; 
+margin-top:0px ;
+scroll-margin-block-end: auto;
+}
+.meniu
+{   position:absolute;right: 20px; top:10px;
+    font-size:40px;
+    font-family: Chiller;
+    appearance:inherit;/*incadrat cu negru casuta*/
+}
+.bara1
+{
+    flex-direction: column;
+    background: #ffb428;
+    width:800px;
+    height: 10px; 
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bara2
+{
+    flex-direction: column;
+    background:#ffb428 ;
+    width: 1000px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title
+{
+    color:rgb(0, 0, 0);
+    font-family:Arial black;
+    font-size:40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.bara3
+{
+    flex-direction: column;
+    background:#ffb428 ;
+    width: 1000px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bara4
+{
+    flex-direction: column;
+    background: #ffb428;
+    width:800px;
+    height: 10px; 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.continut
+{
+    background: transparent;
+    font-size: 30px;
+    font-family: Arial;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.cont2
+{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    padding-left: 15%;
+    font-size:25px;
+}
+a:visited{ color: rgb(46, 43, 43)}
+a:link{ color:black}
+a:hover{ color:hsl(41, 100%, 50%)}
+a:active{ color:black}

@@ -4,11 +4,11 @@
 .pagina
 {
     background:hsl(41, 100%, 60%);
-    height:155em;
+    height:142em;
 }
 .bara
 {
-    width:1350px;
+    width:auto;
     height:75px;
     background:hsl(41, 100%, 50%);;
     margin:0;
@@ -16,6 +16,7 @@
     top:0px;
     bottom: 10px;
     border-bottom-width: 15px;
+    border-bottom: 2px solid white;
 }
 
 .logo
@@ -28,13 +29,10 @@ margin-left: 20px;
 margin-top:0px ;
 }
 .meniu
-{
+{   position:absolute;right: 20px; top:10px;
     font-size:40px;
     font-family: Chiller;
-    margin-right:20px;
-    margin-left: 1240px;
-    margin-top: -55px;
-    appearance:inherit;
+    appearance:inherit;/*incadrat cu negru casuta*/
 }
 .continutprincipal
 {
@@ -44,7 +42,7 @@ margin-top:0px ;
     padding-bottom: 100px;
     margin-top: 30px;
     width:1080px;
-    height:130em;
+    height:120em;
     border-radius: 3%;  
     text-align: center;
     margin-left: auto;
@@ -52,11 +50,11 @@ margin-top:0px ;
     border: 5px solid coral;
     border-color:white;
 }
-a:visited{ color:gray}
+
+a:visited{ color:white}
 a:link{ color:white}
 a:hover{ color:black}
 a:active{ color:black}
-
 .titlu
 {
     font-size: 70px;
